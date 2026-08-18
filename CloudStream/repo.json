@@ -1,0 +1,8 @@
+{
+  "name": "qwert",
+  "description": "qwert.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/gitlihub0/pulginnnnn/refs/heads/builds/plugins.json"
+  ]
+}
