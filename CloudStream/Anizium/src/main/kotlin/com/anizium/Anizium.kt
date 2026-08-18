@@ -41,6 +41,17 @@ class Anizium : MainAPI() {
                 }
             }
             return newHomePageResponse(request.name, results, hasNext = false)
+        } else if (request.data.contains("/page/all-animes")) {
+            val url = "$apiUrl/page/all-animes?page=$page"
+            val res = app.get(url, headers = headers).parsedSafe<SearchResponseWrapper>()
+            res?.page?.data?.forEach { item ->
+                item.toSearchResponse()?.let { results.add(it) }
+            }
+            val currentPage = res?.page?.page ?: page
+            val totalPages = res?.page?.totalPages ?: page
+            val hasNext = currentPage < totalPages
+            return newHomePageResponse(request.name, results, hasNext = hasNext)
+        }            
         } else if (request.data.contains("/page/last-added-episodes")) {
             val url = "$apiUrl/page/last-added-episodes?page=$page"
             val res = app.get(url, headers = headers).parsedSafe<LastAddedResponseWrapper>()
