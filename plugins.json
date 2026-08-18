@@ -9,7 +9,7 @@
             "qwert"
         ],
         "description": "4K Anime izle.",
-        "fileSize": 37795,
+        "fileSize": 37306,
         "repositoryUrl": "https://github.com/gitlihub0/pulginnnnn",
         "language": "tr",
         "tvTypes": [
@@ -19,6 +19,6 @@
         ],
         "iconUrl": "https://anizium.com/assets/images/favicon.png",
         "apiVersion": 1,
-        "fileHash": "sha256-77b0bd72065557453163868b08292ecf79c2feebaa7d95a522bb588f7b031575"
+        "fileHash": "sha256-715aa3fc7acd8072f24d856d01684d65f68560c3962a1f96056398d4f0d426ca"
     }
 ]
