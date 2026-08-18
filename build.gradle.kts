@@ -67,7 +67,7 @@ subprojects {
     }
 
     cloudstream {
-        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/dortkoldantaciz/4kol-CS-Nuvio")
+        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/git0hub00")
         authors = listOf("dört koldan taciz")
     }
 
