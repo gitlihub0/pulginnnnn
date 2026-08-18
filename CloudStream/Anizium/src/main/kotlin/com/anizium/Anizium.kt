@@ -50,8 +50,7 @@ class Anizium : MainAPI() {
             val currentPage = res?.page?.page ?: page
             val totalPages = res?.page?.totalPages ?: page
             val hasNext = currentPage < totalPages
-            return newHomePageResponse(request.name, results, hasNext = hasNext)
-        }            
+            return newHomePageResponse(request.name, results, hasNext = hasNext)            
         } else if (request.data.contains("/page/last-added-episodes")) {
             val url = "$apiUrl/page/last-added-episodes?page=$page"
             val res = app.get(url, headers = headers).parsedSafe<LastAddedResponseWrapper>()
