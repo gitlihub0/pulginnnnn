@@ -1,0 +1,7 @@
+*.bat
+.DS_Store
+*.local
+local.properties
+.gradle/
+build/
+**/build/
