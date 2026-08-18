@@ -18,6 +18,7 @@ class Anizium : MainAPI() {
     override val mainPage = mainPageOf(
         "$apiUrl/page/home#featured" to "Öne Çıkanlar",
         "$apiUrl/page/home#middle" to "Popüler Animeler",
+        "$apiUrl/page/all-animes" to "Tüm Animeler",
         "$apiUrl/page/last-added-episodes" to "Son Eklenen Bölümler"
     )
 
