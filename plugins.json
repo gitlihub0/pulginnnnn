@@ -1,0 +1,24 @@
+[
+    {
+        "url": "https://raw.githubusercontent.com/gitlihub0/pulginnnnn/builds/Anizium.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Anizium",
+        "internalName": "Anizium",
+        "authors": [
+            "qwert"
+        ],
+        "description": "4K Anime izleme platformu Anizium, binlerce anime i\u00e7eri\u011fini T\u00fcrk\u00e7e altyaz\u0131/dublaj ve \u00e7oklu dil se\u00e7enekleriyle sunar.",
+        "fileSize": 37306,
+        "repositoryUrl": "https://github.com/gitlihub0/pulginnnnn",
+        "language": "tr",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "OVA"
+        ],
+        "iconUrl": "https://anizium.com/assets/images/favicon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-715aa3fc7acd8072f24d856d01684d65f68560c3962a1f96056398d4f0d426ca"
+    }
+]
